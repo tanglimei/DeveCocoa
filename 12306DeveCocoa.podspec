@@ -6,11 +6,9 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                     A short description of 12306DeveCocoa.A short description of 12306DeveCocoa.
                    DESC
-  s.homepage     = "http://EXAMPLE/12306DeveCocoa"
+  s.homepage     = "https://github.com/tanglimei/DeveCocoa"
   s.license      = "MIT"
   s.author       = { "tanglimei" => "562630424@qq.com" }
-  s.source       = { :git => "http://EXAMPLE/12306DeveCocoa.git", :tag => "0.0.1" }
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
-
+  s.source       = { :git => "https://github.com/tanglimei/DeveCocoa.git", :tag => "0.0.1" }
+  s.source_files  = '12306DeveCocoa/*.{h,m}'
 end
