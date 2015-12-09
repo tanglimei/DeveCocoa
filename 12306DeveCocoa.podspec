@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "tanglimei" => "562630424@qq.com" }
   s.source       = { :git => "https://github.com/tanglimei/DeveCocoa.git", :tag => "0.0.6" }
-  s.source_files  = '12306DeveCocoa/*.{h,m}'
+  s.source_files  = '12306DeveCocoa/*.{h,m}', '12306DeveCocoa/QuickManifest.plist'
 end
