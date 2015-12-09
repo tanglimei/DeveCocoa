@@ -14,6 +14,7 @@
 		6262F4F81C16DAEF00C70DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6262F4F71C16DAEF00C70DCD /* Assets.xcassets */; };
 		6262F4FB1C16DAEF00C70DCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6262F4F91C16DAEF00C70DCD /* LaunchScreen.storyboard */; };
 		6262F5181C16DC5F00C70DCD /* DCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6262F5171C16DC5F00C70DCD /* DCButton.m */; };
+		6262F5481C18052E00C70DCD /* DCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6262F5471C18052E00C70DCD /* DCView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		6262F4FC1C16DAEF00C70DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6262F5161C16DC5F00C70DCD /* DCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCButton.h; sourceTree = "<group>"; };
 		6262F5171C16DC5F00C70DCD /* DCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCButton.m; sourceTree = "<group>"; };
+		6262F5461C18052E00C70DCD /* DCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCView.h; sourceTree = "<group>"; };
+		6262F5471C18052E00C70DCD /* DCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 			children = (
 				6262F5161C16DC5F00C70DCD /* DCButton.h */,
 				6262F5171C16DC5F00C70DCD /* DCButton.m */,
+				6262F5461C18052E00C70DCD /* DCView.h */,
+				6262F5471C18052E00C70DCD /* DCView.m */,
 			);
 			path = 12306DeveCocoa;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 				6262F4F31C16DAEF00C70DCD /* ViewController.m in Sources */,
 				6262F4F01C16DAEF00C70DCD /* AppDelegate.m in Sources */,
 				6262F4ED1C16DAEF00C70DCD /* main.m in Sources */,
+				6262F5481C18052E00C70DCD /* DCView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
