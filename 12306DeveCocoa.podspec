@@ -2,9 +2,10 @@
 Pod::Spec.new do |s|
   s.name         = "12306DeveCocoa"
   s.version      = "0.0.1"
-  s.summary      = "A short description of 12306DeveCocoa."
+  s.platform     = :ios, '7.0'
+  s.summary      = "This is the first."
   s.description  = <<-DESC
-                    A short description of 12306DeveCocoa.A short description of 12306DeveCocoa.
+                    This is the first one developer.
                    DESC
   s.homepage     = "https://github.com/tanglimei/DeveCocoa"
   s.license      = "MIT"
